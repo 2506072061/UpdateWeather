@@ -56,8 +56,8 @@ params = {
 
 session = requests.Session()
 
-url = 'https://devapi.qweather.com/v7/weather/3d'
-url_today = 'https://devapi.qweather.com/v7/weather/now'
+url = 'https://kn4up49r44.re.qweatherapi.com/v7/weather/3d'
+url_today = 'https://kn4up49r44.re.qweatherapi.com/v7/weather/now'
 
 try:
     with session.get(url, params=params, verify=False) as r, session.get(url_today, params=params) as t:
